@@ -10,6 +10,7 @@ def accent_checker():
         print("The word contains an acute accent ")
     elif 'â' or 'ê' or 'î' or 'ô' or 'û' or 'Â' or 'Ê' or 'Î' or 'Ô' or 'Û' in user_input_word:
         print('\n')
+        print("The word contains a circumflex accent ")
 
     else:
         print("The word is unaccented.")
